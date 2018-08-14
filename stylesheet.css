@@ -35,7 +35,7 @@
 	font-family:verdana;
 	font-size:15px;
 	padding:50px 50px 50px 50px;
-	height:531px;
+	/*height:100%;*/
 	margin: auto;
 	text-align:center;
 	position: relative;
@@ -47,7 +47,7 @@
 	font-family:verdana;
 	font-size:15px;
 	padding:50px 50px 50px 50px;
-	height:600px;
+	/*height:100%;*/
 	margin: auto;
 	text-align:center;
 	position: relative;
@@ -62,7 +62,7 @@
 	font-family:verdana;
 	font-size:15px;
 	padding:70px 50px 50px 50px;
-	height:600px;
+	/*height:100%;*/
 	margin: auto;
 	text-align:center;
 	position: relative;
@@ -82,7 +82,7 @@
 	font-family:verdana;
 	font-size:15px;
 	padding:70px 50px 50px 50px;
-	height:720px;
+	height:100%;
 	list-style-type: none;
 	text-align:center;
 	position: relative;
@@ -154,6 +154,7 @@ a:active {
 
 body{
 	background-image: url("mountain.jpg");
+	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-top: 0px;
     margin-bottom: 0px;
@@ -184,3 +185,6 @@ div{
 	overflow: auto;
 }
 
+section{
+	height:100vh;
+}

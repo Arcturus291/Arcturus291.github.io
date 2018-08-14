@@ -1,0 +1,186 @@
+#bar{
+	position:fixed;
+	list-style-type: none;
+		overflow: hidden;
+		background-color: #ffffff00;
+		font-family:verdana;
+		text-decoration:none;
+		text-transform: uppercase;
+		height:50px;
+		width:1350px;
+		z-index: 5;
+		border-bottom: 1px solid white;;
+		/*margin: 0px 40px 0px 40px;*/
+		
+	}
+
+#navbar{
+	text-align:center;
+	/*padding-right: 40px;
+	margin-right: 40px;
+	border-right: 40px;*/
+}
+
+#bar:hover{
+	background-color: #aaaaaa;
+	transition: background 0.5s ease-in-out;
+}
+.nb{
+	float:right;
+	display:inline;
+	padding-right:20px; 
+}
+
+#main{
+	font-family:verdana;
+	font-size:15px;
+	padding:50px 50px 50px 50px;
+	height:531px;
+	margin: auto;
+	text-align:center;
+	position: relative;
+	z-index: 2;
+}
+
+#about{
+	background-color: #bdc3ca;
+	font-family:verdana;
+	font-size:15px;
+	padding:50px 50px 50px 50px;
+	height:600px;
+	margin: auto;
+	text-align:center;
+	position: relative;
+	z-index: 2;
+	margin-right: 0px;
+    margin-left: 0px;
+    scroll-behavior: 
+}
+
+#cmsc{
+	/*background-color: #686c75;*/
+	font-family:verdana;
+	font-size:15px;
+	padding:70px 50px 50px 50px;
+	height:600px;
+	margin: auto;
+	text-align:center;
+	position: relative;
+	z-index: 2;
+	margin-right: 0px;
+    margin-left: 0px;
+
+    background-image: url("komsay.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#others{
+	background-color: #5b718a;
+	font-family:verdana;
+	font-size:15px;
+	padding:70px 50px 50px 50px;
+	height:720px;
+	list-style-type: none;
+	text-align:center;
+	position: relative;
+	z-index: 2;
+	margin-right: 0px;
+    margin-left: 0px;
+    float:center;
+}
+
+#hobbies div{
+	margin:auto;
+	display:inline-block;
+	text-align: inline-block;
+	float:center;
+	overflow: none;
+}
+
+#food div{
+	display:inline-block;
+}
+
+#d1{
+	padding-top: 20px;
+	float:center;
+	height:500px;
+	width:100%;
+	background: rgba(255, 255, 255, 0.3);
+}
+
+#CmscIcons{
+	padding-top: 20px;
+}
+
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:30px; 
+  margin:0px 0px 0px 0px; 
+}
+
+p, h1, h2, h3, h4 ,h5, h6{
+	color:#ffffff;
+}
+
+a:link {
+    color:#ffffff;
+    background-color: transparent; 
+    text-decoration: none;
+}
+
+a:visited {
+    color:#ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #777777;
+    text-decoration:none;
+}
+
+
+a:active {
+    color: #e6e6e6;
+    text-decoration:none;
+}
+
+
+
+body{
+	background-image: url("mountain.jpg");
+	background-attachment: fixed;
+	margin-top: 0px;
+    margin-bottom: 0px;
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+ul{
+	list-style-type: none;
+	text-align: left;
+	color:#ffffff;
+}
+img {
+    width: auto;
+    height: auto;
+}
+
+nav{
+	padding:0px 40px 0px 40px;
+}
+
+nav:hover{
+	color:#000000;
+	transition: color 0.5s ease-in-out;
+}
+
+div{
+	overflow: auto;
+}
+

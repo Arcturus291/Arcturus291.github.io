@@ -33,7 +33,7 @@
 
 #main{
 	font-family:verdana;
-	font-size:1em;
+	font-size:30px;
 	padding:50px 50px 50px 50px;
 	/*height:100%;*/
 	margin: auto;
@@ -45,7 +45,7 @@
 #about{
 	background-color: #bdc3ca;
 	font-family:verdana;
-	font-size:1em;
+	font-size:25px;
 	padding:50px 50px 50px 50px;
 	/*height:100%;*/
 	margin: auto;
@@ -60,7 +60,7 @@
 #cmsc{
 	/*background-color: #686c75;*/
 	font-family:verdana;
-	font-size:1em;
+	font-size:25px;
 	padding:70px 50px 50px 50px;
 	/*height:100%;*/
 	margin: auto;
@@ -80,7 +80,7 @@
 #others{
 	background-color: #5b718a;
 	font-family:verdana;
-	font-size:1em;
+	font-size:25px;
 	padding:70px 50px 50px 50px;
 	height:100%;
 	list-style-type: none;

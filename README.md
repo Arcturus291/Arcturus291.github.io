@@ -1,1 +1,1 @@
-# Arcturus291.github.io
+# Simple Personal Web Page for CMSC100
